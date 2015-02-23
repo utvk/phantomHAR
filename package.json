@@ -17,15 +17,16 @@
   },
   "dependencies": {
     "body-parser": "^1.4.3",
+    "commander": "^2.3.0",
+    "cors": "^2.4.1",
+    "debug": "^2.1.1",
     "es6-promise": "^1.0.0",
     "express": "^4.4.5",
-    "request": "^2.36.0",
+    "minimist": "^1.1.0",
     "morgan": "^1.2.3",
-    "cors": "^2.4.1",
     "node-phantom-simple": "^1.2.0",
     "phantom": "^0.6.5",
-    "commander": "^2.3.0",
-    "minimist": "^1.1.0"
+    "request": "^2.36.0"
   },
   "bin": {
     "phantomhar": "cli.js"
